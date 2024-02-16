@@ -156,7 +156,6 @@
   background: var(--bg);
   border: var(--border);
   border-radius: 15px;
-  padding: 20px;
 
   display: flex;
 
@@ -187,7 +186,8 @@
 }
 .infoContainer {
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding: 20px;
+  padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   gap: 15px;
