@@ -185,8 +185,8 @@
   text-align: center;
 }
 .infoContainer {
-  padding-top: 30px;
   padding: 20px;
+  padding-top: 50px;
   padding-bottom: 25px;
   display: flex;
   flex-direction: column;

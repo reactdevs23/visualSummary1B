@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import MainComponent from "./components/MainComponent/MainComponent";
 import HeadingIcon from "./images/HeadingIcon";
 import Technology from "./images/Technology";
@@ -59,9 +58,10 @@ function App() {
             title: "Reshaping the Universe",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#FDE272",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
               icon: <Technology color="#000" bg="#FEEE95" />,
@@ -70,12 +70,12 @@ function App() {
             },
             {
               icon: <Moral color="#000" bg="#FEEE95" />,
-              text: "Technology as a Tool",
+              text: "Moral Imperative",
               textColor: "#000",
             },
             {
               icon: <Vision color="#000" bg="#FEEE95" />,
-              text: "Technology as a Tool",
+              text: "Vision and Ambition",
               textColor: "#000",
             },
           ],
@@ -84,26 +84,27 @@ function App() {
         },
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Embracing Uncertainty",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#FDE272",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
               icon: <Replication color="#000" bg="#FEEE95" />,
-              text: "Technology as a Tool",
+              text: "Replication Crisis",
               textColor: "#000",
             },
             {
               icon: <Questioning color="#000" bg="#FEEE95" />,
-              text: "Technology as a Tool",
+              text: "Questioning Everything",
               textColor: "#000",
             },
             {
               icon: <Faulty color="#000" bg="#FEEE95" />,
-              text: "Technology as a Tool",
+              text: "Faulty Beliefs",
               textColor: "#000",
             },
           ],
@@ -114,26 +115,27 @@ function App() {
       [
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Value of Enthusiasm",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#F38744",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
               icon: <Personal color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
+              text: "Learning & Reality",
               textColor: "#000",
             },
             {
               icon: <Energy color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
+              text: "Focus on Essentials",
               textColor: "#000",
             },
             {
               icon: <Big color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
+              text: "Perception of Time",
               textColor: "#000",
             },
           ],
@@ -142,54 +144,27 @@ function App() {
         },
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Sources of Dopamine",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#F38744",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
               icon: <Idea color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
+              text: "Empowerment Through Detail",
               textColor: "#000",
             },
             {
               icon: <Validation color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
+              text: "Mistakes vs. Excellence",
               textColor: "#000",
             },
             {
               icon: <Action color="#000" bg="#F9DBAF" />,
-              text: "Technology as a Tool",
-              textColor: "#000",
-            },
-          ],
-          border: "3px solid #000",
-          background: "#fff",
-        },
-        {
-          titleContainer: {
-            title: "Reshaping the Universe",
-            titleColor: "#000",
-            border: "3px solid #000",
-            background: "#B4F0FF",
-            boxShadow: "1.5px 3px 0px 0px #000",
-          },
-          info: [
-            {
-              icon: <Learning color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
-              textColor: "#000",
-            },
-            {
-              icon: <Focus color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
-              textColor: "#000",
-            },
-            {
-              icon: <Perception color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              text: "Unconventional Wisdom",
               textColor: "#000",
             },
           ],
@@ -200,26 +175,27 @@ function App() {
       [
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Importance of Speed",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#F670C7",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
-              icon: <Empowerment color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              icon: <Learning color="#000" bg="#FCE7F6" />,
+              text: "Cultural Dynamics",
               textColor: "#000",
             },
             {
-              icon: <Mistakes color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              icon: <Focus color="#000" bg="#FCE7F6" />,
+              text: "Resource Allocation",
               textColor: "#000",
             },
             {
-              icon: <Unconventional color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              icon: <Perception color="#000" bg="#FCE7F6" />,
+              text: "Agile Decision-Making",
               textColor: "#000",
             },
           ],
@@ -228,26 +204,57 @@ function App() {
         },
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Rethink Micromanagement",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#F670C7",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
+          info: [
+            {
+              icon: <Empowerment color="#000" bg="#FCE7F6" />,
+              text: "Limitations of EMH",
+              textColor: "#000",
+            },
+            {
+              icon: <Mistakes color="#000" bg="#FCE7F6" />,
+              text: "Opportunities in Anomalies",
+              textColor: "#000",
+            },
+            {
+              icon: <Unconventional color="#000" bg="#FCE7F6" />,
+              text: "Narrow Focus",
+              textColor: "#000",
+            },
+          ],
+          border: "3px solid #000",
+          background: "#fff",
+        },
+        {
+          titleContainer: {
+            title: "Efficiency of Small Teams",
+            titleColor: "#000",
+            border: "3px solid #000",
+            background: "#F670C7",
+            boxShadow: "1.5px 3px 0px 0px #000",
+          },
+          middleBorder: "3px solid #000",
+
           info: [
             {
               icon: <Cultural color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              text: "Invisible Orthodoxy",
               textColor: "#000",
             },
             {
               icon: <Resource color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              text: "Physics as Boundary",
               textColor: "#000",
             },
             {
               icon: <Agile color="#000" bg="#FCE7F6" />,
-              text: "Technology as a Tool",
+              text: "Expanding Horizons",
               textColor: "#000",
             },
           ],
@@ -259,12 +266,13 @@ function App() {
       [
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Questioning Hypotheses",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#9B8AFB",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
           info: [
             {
               icon: <Limitation color="#000" bg="#ECE9FE" />,
@@ -287,12 +295,14 @@ function App() {
         },
         {
           titleContainer: {
-            title: "Reshaping the Universe",
+            title: "Beyond Limits",
             titleColor: "#000",
             border: "3px solid #000",
-            background: "#B4F0FF",
+            background: "#9B8AFB",
             boxShadow: "1.5px 3px 0px 0px #000",
           },
+          middleBorder: "3px solid #000",
+
           info: [
             {
               icon: <Invisible color="#000" bg="#ECE9FE" />,
